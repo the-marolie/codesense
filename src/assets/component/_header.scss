@@ -1,0 +1,15 @@
+header {
+	padding: 20px;
+	.wrapper {
+
+		ul {
+			display: flex;
+			justify-content: center;
+
+			li {
+				margin-right:10px;
+				color: $color-text;
+			}
+		}
+	}	
+}	

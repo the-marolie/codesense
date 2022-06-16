@@ -1,0 +1,53 @@
+.list-box-container {
+	padding: 10px;
+	flex-basis: 48%;
+	.wrapper {
+		background-color: $color-bg-box;
+		padding: 15px;
+		border-radius: 25px;
+		color: $color-text;
+	}
+
+	ul {
+
+		li {
+
+			button {
+				outline: 0;
+				box-shadow: 0;
+				border: 0;
+				background-color: $color-dark-bg;
+				color: $color-text;
+				padding: 10px;
+    			width: 100%;
+    			border-radius: 25px;
+    			cursor: pointer;
+
+    			&:hover {
+    				background-color: $color-blue;
+    			}
+			}
+			margin-bottom: 20px;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+
+			h4 {
+				color: #fff;
+				margin-bottom: 10px;
+			}
+
+			p {
+				color: $color-text-alt;
+				margin-bottom: 5px;
+			}
+
+			a {
+				color: $color-blue;
+				margin-bottom: 10px;
+			}
+
+		}
+	}
+}
