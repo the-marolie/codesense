@@ -3,13 +3,13 @@ import axios from "axios";
 import Navbar from "@C/Navbar";
 import { Link } from "react-router-dom";
 
-
 class ListPosts extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       list: [],
+
     };
   }
 
@@ -21,19 +21,23 @@ class ListPosts extends Component {
 
   handleClick = (id) => {
     this.props.onUserSelect(id);
-  }
+  };
+
+  
 
   render() {
     const list = this.state.list;
     return (
       <>
         {this.props.match?.params.id && <Navbar />}
-        <div class="list-box-container">
-          <div class="wrapper">
+        <div className="list-box-container">
+          <div className="wrapper">
             <ul>
               {list.map((item, i) => (
                 <li key={i}>
-                  <button onClick={() => this.handleClick(item.id)}>{item.name}</button>
+                  <button onClick={() => this.handleClick(item.id)}>
+                    {item.name}
+                  </button>
                 </li>
               ))}
             </ul>

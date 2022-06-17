@@ -32,8 +32,8 @@ class ListPosts extends Component {
     const list = this.state.list;
     if (!this.props.userId) {
       return (
-        <div class="list-box-container">
-          <div class="wrapper">
+        <div className="list-box-container">
+          <div className="wrapper">
             <p>Select a user to load the posts</p>
           </div>
         </div>
@@ -41,8 +41,8 @@ class ListPosts extends Component {
     } else {
       return (
         <>
-          <div class="list-box-container">
-            <div class="wrapper">
+          <div className="list-box-container">
+            <div className="wrapper">
               <ul>
                 {list.map((item, i) => (
                   <li key={i}>

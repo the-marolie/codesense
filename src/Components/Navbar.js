@@ -10,18 +10,18 @@ class Navbar extends Component {
   render() {
     return (
       <>
-        <header class="container">
-          <div class="wrapper">
+        <header className="container">
+          <div className="wrapper">
             <nav>
               <ul>
                 <li>
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/users">Users</Link>
+                  <Link to="/page-1">Page 1</Link>
                 </li>
                 <li>
-                  <Link to="/posts">Posts</Link>
+                  <Link to="/page-2">Page 2</Link>
                 </li>
               </ul>
             </nav>
