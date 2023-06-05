@@ -1,7 +1,7 @@
 {
-  "name": "rs-boilerplate",
+  "name": "codesense",
   "version": "1.0.0",
-  "description": "A React 17 SASS Bolierplate",
+  "description": "An app that allows you to analyze code for semantic and accessiblity issues using chatGPT API",
   "main": "index.js",
   "scripts": {
     "build:dev": "webpack --mode=development",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dope-lab/rs-boilerplate.git"
+    "url": "git+https://github.com/the-marolie/codesense.git"
   },
   "keywords": [
     "react",
@@ -23,9 +23,9 @@
   "author": "D O P E LAB",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dope-lab/rs-boilerplate/issues"
+    "url": "https://github.com/the-marolie/codesense/issues"
   },
-  "homepage": "https://github.com/dope-lab/rs-boilerplate#readme",
+  "homepage": "https://github.com/the-marolie/codesense#readme",
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
